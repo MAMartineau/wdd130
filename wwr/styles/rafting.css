@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #2a9d8f;
+    --secondary-color: #264653;
+    --text-color: #f4a261;
+    --accent-color: #e76f51;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header p {
+    color: rgba(52, 60, 208, 0.532);
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    font-size: 3rem;    
+    padding: 20px;
+    max-width: 1100px;
+
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+   
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: 3rem;
+    font-family: var(--heading-font);
+    color: white;
+  }
+  
+  .hero article {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background-color: rgba(38, 70, 83, 0.8);
+    padding: 20px;
+    width: 55%;
+    color: white;
+  }
+  
+  .hero article img {
+    float: right;
+    width: 100px;
+    height: auto;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+  
+  section p {
+    font-size: 1rem;
+    color: var(--secondary-color);
+  }
+
+ 
+  footer p {
+    margin: 0;
+  }
+  
+  footer nav a img {
+    width: 32px;
+    height: 32px;
+  }
