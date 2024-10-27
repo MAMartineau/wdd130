@@ -129,6 +129,11 @@ header nav a:hover {
     border-radius: 10px;
 }
 
+.contact-info h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
 .contact-info h2, .employee-profiles h2, .contact-form h2 {
     font-size: 2rem;
     color: var(--primary-color);
