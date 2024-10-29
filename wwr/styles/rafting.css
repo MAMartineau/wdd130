@@ -1,4 +1,4 @@
-  :root {
+:root {
     --primary-color: #582B11;
     --secondary-color: #D6CA98;
     --text-color: #388659;
@@ -163,7 +163,6 @@ header nav a:hover {
 }
 
 .profiles img {
-    /* border-radius: 80%; */
     width: 150px;
     height: 150px;
 }
@@ -228,6 +227,187 @@ header nav a:hover {
 
 .contact-form button:hover {
     background-color: var(--accent-color);
+}
+
+/* Home Page */
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+}
+
+.home-hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+.newsletter-signup {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.newsletter-signup h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.newsletter-signup form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter-signup .fields {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter-signup label {
+    font-size: 1rem;
+}
+
+.newsletter-signup input[type="text"], 
+.newsletter-signup input[type="email"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.newsletter-signup button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.newsletter-signup button:hover {
+    background-color: var(--accent-color);
+}
+
+
+.home-call-to-action {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cta-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.home-gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.home-gallery-item p {
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Trips Page */
+.trips-call-to-action p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.trip-details {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trip-details h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.trip-item {
+    text-align: center;
+}
+
+.trip-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.trip-item p {
+    text-align: center;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-top: 8px;
+}
+
+.trip-table {
+    margin: 30px 0;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.trip-table td {
+    color: var(--text-color);
 }
 
 /* Footer */
